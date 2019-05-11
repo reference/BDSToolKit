@@ -24,12 +24,12 @@
 import UIKit
 @IBDesignable open class BDSButton: UIButton {
     
-    required init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        self.radius = 0
-        self.borderColor = UIColor.clear
-        self.borderWidth = 0
-    }
+//    required init(coder aDecoder: NSCoder) {
+//        super.init(coder: aDecoder)
+//        self.radius = 0
+//        self.borderColor = UIColor.clear
+//        self.borderWidth = 0
+//    }
     
     @IBInspectable open var radius: CGFloat = 0.0 {
         didSet {
@@ -41,7 +41,7 @@ import UIKit
     @IBInspectable open var borderColor: UIColor = UIColor.clear {
         didSet {
             self.layer.masksToBounds = true
-            self.layer.borderColor = borderColor.CGColor
+            self.layer.borderColor = borderColor.cgCGColor
         }
     }
     @IBInspectable open var borderWidth: CGFloat = 0 {
