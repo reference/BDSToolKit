@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BDSToolKit"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Usefull tool for Swift develop."
   s.description  = "Usefull tool for Swift develop.Help yourself in this post.And buy me a cup of coffee.Just kidding.Anyway Where is coffee shop?"
   s.homepage     = "https://github.com/reference/BDSToolKit"

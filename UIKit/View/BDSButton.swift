@@ -41,7 +41,7 @@ import UIKit
     @IBInspectable open var borderColor: UIColor = UIColor.clear {
         didSet {
             self.layer.masksToBounds = true
-            self.layer.borderColor = borderColor.cgCGColor
+            self.layer.borderColor = borderColor.cgColor
         }
     }
     @IBInspectable open var borderWidth: CGFloat = 0 {
