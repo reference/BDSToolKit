@@ -1,6 +1,7 @@
+/**
 MIT License
 
-Copyright (c) 2018 Mrban
+Copyright (c) 2018 Scott Ban (https://github.com/reference/BDSToolKit)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +20,24 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+*/
+
+#ifndef BDSToolKit_h
+#define BDSToolKit_h
+
+/// UIKIT
+
+//views
+@import BDSButton
+
+//catagory
+
+
+//controllers
+
+
+/// FOUNDATION
+
+//catagory
+
+#endif /* BDSToolKit_h */
