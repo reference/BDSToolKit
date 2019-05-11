@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BDSToolKit"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Usefull tool for Swift develop."
   s.description  = "Usefull tool for Swift develop.Help yourself in this post.And buy me a cup of coffee.Just kidding.Anyway Where is coffee shop?"
   s.homepage     = "https://github.com/reference/BDSToolKit"
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source_files  =  "BDSToolKit.h"
   s.public_header_files = "BDSToolKit.h"
 
-    s.subspec "BDViewController" do |ss|
+    s.subspec "BDSButton" do |ss|
         ss.source_files  = "UIKit/Controller/BDSButton/*.{swift}"
         ss.public_header_files = "UIKit/Controller/BDSButton/*.swift"
     end
