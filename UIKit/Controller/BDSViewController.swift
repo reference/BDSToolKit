@@ -7,7 +7,7 @@
  of this software and associated documentation files (the "Software"), to deal
  in the Software without restriction, including without limitation the rights
  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- copies of the Software, and to permit BDButtonpersons to whom the Software is
+ copies of the Software, and to permit persons to whom the Software is
  furnished to do so, subject to the following conditions:
  
  The above copyright notice and this permission notice shall be included in all
@@ -21,33 +21,19 @@
  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  SOFTWARE.
  */
+import Foundation
 import UIKit
-@IBDesignable open class BDSButton: UIButton {
-    
-    required public init(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)!
-        self.radius = 0
-        self.borderColor = UIColor.clear
-        self.borderWidth = 0
-    }
-    
-    @IBInspectable open var radius: CGFloat = 0.0 {
-        didSet {
-            self.layer.cornerRadius = CGFloat(radius)
-            self.layer.masksToBounds = true
-        }
-    }
-    
-    @IBInspectable open var borderColor: UIColor = UIColor.clear {
-        didSet {
-            self.layer.masksToBounds = true
-            self.layer.borderColor = borderColor.cgColor
-        }
-    }
-    @IBInspectable open var borderWidth: CGFloat = 0 {
-        didSet {
-            self.layer.borderWidth = CGFloat(borderWidth)
-            self.layer.masksToBounds = true
-        }
-    }
+
+open class BDSViewController: UIViewController {
+    @IBOutlet public var views: Array<UIView>?
+    @IBOutlet public var buttons: Array<UIButton>?
+    @IBOutlet public var labels: Array<UILabel>?
+    @IBOutlet public var imageViews: Array<UIImageView>?
+    @IBOutlet public var tableViews: Array<UITableView>?
+    @IBOutlet public var collectionViews: Array<UICollectionView>?
+    @IBOutlet public var collectionReusableViews: Array<UICollectionReusableView>?
+    @IBOutlet public var textFields: Array<UITextField>?
+    @IBOutlet public var textViews: Array<UITextView>?
+    @IBOutlet public var stackViews: Array<UIStackView>?
+    @IBOutlet public var switchs: Array<UISwitch>?
 }
