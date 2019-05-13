@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BDSToolKit"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "Usefull tool for Swift develop."
   s.description  = "Usefull tool for Swift develop.Help yourself in this post.And buy me a cup of coffee.Just kidding.Anyway Where is coffee shop?"
   s.homepage     = "https://github.com/reference/BDSToolKit"
@@ -22,24 +22,15 @@ Pod::Spec.new do |s|
   s.frameworks = "UIKit", "Foundation", "WebKit"
   s.requires_arc = true
 
-  s.subspec "BDSButton" do |ss|
+  s.subspec "View" do |ss|
      ss.source_files  = "UIKit/View/*.swift"
   end
 
-  s.subspec "ArrayBDSUIExtension" do |ss|
+  s.subspec "Catagory" do |ss|
      ss.source_files  = "UIKit/Catagory/*.swift"
   end
 
-  s.subspec "BDSCollectionController" do |ss|
+  s.subspec "Controller" do |ss|
      ss.source_files  = "UIKit/Controller/*.swift"
   end
-
-  s.subspec "BDSTableController" do |ss|
-     ss.source_files  = "UIKit/Controller/*.swift"
-  end
-
-  s.subspec "BDSViewController" do |ss|
-    ss.source_files  = "UIKit/Controller/*.swift"
-  end
-
 end

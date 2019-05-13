@@ -24,13 +24,7 @@ pod 'BDSToolKit'
 
 ## Category
 
-* NSArray+BDSUIKIT
-* NSString+BDS
-* UILabel+BDS
-* UITextField+BDS
-* UITextView+BDS
-* UIView+BDS
-* UIView+BDSCDS
+* ArrayBDSExtension
 
 ## BDSUIKit
 
@@ -43,18 +37,11 @@ pod 'BDSToolKit'
 ### View
 
 * BDSButton
-* BDSCollectionViewCell
-* BDSImageView
-* BDSLabel
-* BDSSegmentView
-* BDSTableViewCell
-* BDSView
 
 ## Foundation
 
 ### Catagory
 
-* NSURLProtocol+WKWebVIew
 
 ## License
 
