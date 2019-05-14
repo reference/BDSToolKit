@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BDSToolKit"
-  s.version      = "0.1.6"
+  s.version      = "0.1.7"
   s.summary      = "Usefull tool for Swift develop."
   s.description  = "Usefull tool for Swift develop.Help yourself in this post.And buy me a cup of coffee.Just kidding.Anyway Where is coffee shop?"
   s.homepage     = "https://github.com/reference/BDSToolKit"
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author       = { "Scott Ban" => "imti_bandianhong@126.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/reference/BDSToolKit.git", :tag => "#{s.version}" }
-  s.swift_version = '5'
+  s.swift_version = '4.1'
 
   s.frameworks = "UIKit", "Foundation", "WebKit"
   s.requires_arc = true
